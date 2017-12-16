@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Scout Manager</string>
+    <string name="welcome">Welcome to Scout Manager!</string>
+    <string name="image_desc_logo">scout logo</string>
+    <string name="add_scout">Add Scout</string>
+    <string name="name_first_scout">Scout First Name</string>
+    <string name="name_last_scout">Scout Last Name</string>
+    <string name="scout">Scout</string>
+    <string name="parent">Parent</string>
+    <string name="first">First</string>
+    <string name="name">Name</string>
+    <string name="primary">Primary</string>
+    <string name="secondary">Secondary</string>
+    <string name="scout_level">Scout Level</string>
+    <string name="pack">Pack #</string>
+    <string name="den">Den</string>
+    <string name="den_number">Den Number</string>
+    <string name="leader">Leader Name</string>
+    <string name="view_den_list">View Den Members</string>
+    <string name="name_first_parent_primary">Parent First Name (Primary)</string>
+    <string name="name_first_parent_secondary">Parent First Name (Secondary)</string>
+    <string name="name_parent_primary">Parent (Primary):</string>
+    <string name="name_parent_secondary">Parent (Secondary):</string>
+    <string name="email">Email@example.com</string>
+    <string name="home">Home</string>
+    <string name="add">Add</string>
+    <string name="present">Present</string>
+    <string name="add_parent">Add Parent</string>
+    <string name="view_den">View Den Members</string>
+    <string name="edit_scout">Edit Scout Info</string>
+    <string name="view_events">View Events</string>
+    <string name="track_awards">Track Awards</string>
+    <string name="badge">Badge</string>
+    <string-array name="actions">
+        <item>@string/view_den</item>
+        <item>@string/edit_scout</item>
+        <item>@string/view_events</item>
+        <item>@string/track_awards</item>
+    </string-array>
+    <string-array name="pack">
+        <item>22</item>
+    </string-array>
+    <string-array name="den">
+        <item>Tigers</item>
+    </string-array>
+</resources>
