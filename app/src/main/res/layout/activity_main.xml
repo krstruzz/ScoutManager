@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    tools:context="com.struzzwebsolutions.scoutmanager.MainActivity">
+
+<!--
+    <ImageView
+        android:id="@+id/ivScoutLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        app:srcCompat="@mipmap/logo_cubscouts" />
+-->
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/welcome"
+        android:textSize="11pt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/tvPackNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/pack"
+            android:textAlignment="textEnd"
+            android:textSize="11pt" />
+
+        <TextView
+            android:id="@+id/tvPackNumValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="start"
+            android:textAlignment="textStart"
+            android:textSize="11pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_den" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_scout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_events" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/track_awards" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/add"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2.5dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibViewScouts"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/colorPrimaryLight"
+                android:contentDescription="@string/view_den_list"
+                android:elevation="15dp"
+                android:tooltipText="View Den"
+                app:srcCompat="@mipmap/ic_view_list_white_foreground" />
+
+            <ImageButton
+                android:id="@+id/ibAddScout"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/colorPrimaryLight"
+                android:contentDescription="@string/edit_scout"
+                android:elevation="15dp"
+                app:srcCompat="@mipmap/ic_add_person_foreground" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2.5dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibEvent"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/colorPrimaryLight"
+                android:contentDescription="@string/view_events"
+                android:elevation="15dp"
+                app:srcCompat="@mipmap/ic_event_foreground" />
+
+            <ImageButton
+                android:id="@+id/ibBadges"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:background="@color/colorPrimaryLight"
+                android:contentDescription="@string/track_awards"
+                android:elevation="15dp"
+                app:srcCompat="@mipmap/ic_badge_hat_foreground" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
